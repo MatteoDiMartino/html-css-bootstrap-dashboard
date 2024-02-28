@@ -3,10 +3,13 @@
 }
 
 .ms-debug-asize {
-    background-color: rgb(255, 0, 0);
 }
 
-
+aside {
+    background-color: #051e34;
+    background-image: url(./img/sidebar-bg.png);
+    background-size: auto;
+}
 
 .ms-content {
     overflow: auto;
@@ -16,11 +19,10 @@
     height: calc(100vh- 80px);
     background-color: aqua;
     width: calc(100vw - 80px);
-    border: 2px dashed black;
 }
 
 .ms-aside {
-    width: 80px;
+    width: 120px;
     height: calc(100vh - 80px);
 }
 
