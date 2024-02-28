@@ -50,3 +50,8 @@ aside {
 .ms-bg-secondary {
     background-color: rgba(0,0,0, 0.2);
 }
+
+.ms-start-card {
+    background-color: #f7f7f7;
+    border: 1px solid #dddddd;
+}
