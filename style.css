@@ -1,0 +1,41 @@
+.ms-debug-header {
+    background-color: white;
+}
+
+.ms-debug-asize {
+    background-color: rgb(255, 0, 0);
+}
+
+
+
+.ms-content {
+    overflow: auto;
+}
+
+.ms-container-main {
+    height: calc(100vh- 80px);
+    background-color: aqua;
+    width: calc(100vw - 80px);
+    border: 2px dashed black;
+}
+
+.ms-aside {
+    width: 80px;
+    height: calc(100vh - 80px);
+}
+
+.ms-list-icon ul {
+    display: flex;
+}
+
+.ms-text-orange {
+    color: #ff8f00;
+}
+
+.ms-text-icon {
+    color: #5b5959;
+}
+
+.ms-color-src {
+    background-color: #e5e5e5;
+}
