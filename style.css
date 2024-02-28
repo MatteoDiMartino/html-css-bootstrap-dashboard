@@ -2,9 +2,6 @@
     background-color: white;
 }
 
-.ms-debug-asize {
-}
-
 aside {
     background-color: #051e34;
     background-image: url(./img/sidebar-bg.png);
@@ -22,7 +19,7 @@ aside {
 }
 
 .ms-aside {
-    width: 120px;
+    width: 140px;
     height: calc(100vh - 80px);
 }
 
