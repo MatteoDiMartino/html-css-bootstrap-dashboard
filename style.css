@@ -22,7 +22,6 @@ main {
     overflow: hidden;
 }
 
-
 .ms-left {
     margin-left: 140px;
 }
@@ -68,4 +67,20 @@ main {
 
 .ms-w-icon {
     width: 30px;
+}
+
+.ms-w-10 {
+    width: 25px;
+}
+
+.ms-fs {
+    font-size: 13px;
+}
+
+.ms-w {
+    width: 10%;
+}
+
+.ms-w-20 {
+    width: 20%;
 }
