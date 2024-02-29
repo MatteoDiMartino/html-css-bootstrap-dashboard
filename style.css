@@ -1,26 +1,35 @@
 .ms-debug-header {
     background-color: white;
+    flex-shrink: 0;
+    height: 80px;
 }
 
 aside {
     background-color: #051e34;
     background-image: url(./img/sidebar-bg.png);
-    background-size: auto;
+    background-size: auto; 
+    overflow: hidden;
 }
 
-.ms-content {
-    overflow: auto;
-}
-
-.ms-container-main {
-    height: calc(100vh- 80px);
+main {
     background-color: aqua;
-    width: calc(100vw - 80px);
+    height: calc(100vh - 80px);
+    flex: 1;
+    overflow-y: auto;
+}
+
+.ms-content-main {
+    overflow: hidden;
+}
+
+
+.ms-left {
+    margin-left: 140px;
 }
 
 .ms-aside {
     width: 140px;
-    height: calc(100vh - 80px);
+    flex-shrink: 0;
 }
 
 .ms-list-icon ul {
@@ -45,6 +54,7 @@ aside {
 
 .ms-blue-boolean {
     background-color: #1b72e8;
+    height: 112px;
 }
 
 .ms-bg-secondary {
@@ -54,4 +64,8 @@ aside {
 .ms-start-card {
     background-color: #f7f7f7;
     border: 1px solid #dddddd;
+}
+
+.ms-w-icon {
+    width: 30px;
 }
